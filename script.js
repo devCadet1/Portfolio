@@ -15,3 +15,17 @@ function opentab(tabname) {
     document.getElementById(tabname).classList.add("active-tab")
 
 } 
+
+
+// ---------------------Nav Bar - Hidden and disply ---------------
+
+var sideMenu = document.getElementById('sideMenu');
+
+function openMenu() {
+    sideMenu.style.right = "0"
+    
+}
+
+function closeMenu() {
+    sideMenu.style.right = "-200px"
+}

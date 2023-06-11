@@ -13,19 +13,22 @@
         <div class="container">
             <nav>
                 <img src="./asset/devcadet.png" class="logo" alt="">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
 
             <div class="header-text">
                 <p>Front End Developer</p>
-                <h1>Hi, I'm <span>Satyam </span>Karn 
+                <h1>Hi, I'm <span>Satyam Karn</span> 
                     <br> from India</h1>
+                    <p>a.k.a <span>devCadet</span></p>
             </div>
         </div>
     </div>
@@ -34,11 +37,11 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="./asset/img.png" alt="">
+                    <img src="./asset/Image.png" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am a Web Developer skilled in Javascript. Currently I am working with Tata Consultancy Services Ltd. as a Software Engineer. In the past I have worked as an Automation Engineer in the same organization. I am focused into Development, mainly in Front End roles.
+                    <p>I am a Web Developer in making, skilled in JavaScript. Currently I am working with Tata Consultancy Services Ltd. as a Software Engineer. In the past I have worked as an Automation Engineer in the same organization. Now I am focused into Development, mainly in Front End roles.
                     </p>
 
                     <div class="tab-titles">
@@ -86,21 +89,21 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Develoment</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla iure repellat totam fuga beatae recusandae sus</p>
+                    <p>Started building websites back in college for fun using WordPress. Now seeking this as a full time career opportuntiy as I've always been fascinated about the look and feel of a website and how I can build this of my own.</p>
                     <a href="#">Learn More</a>
                 </div>
 
                 <div>
                     <i class="fa-brands fa-android"></i>
                     <h2>App Development</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla iure repellat totam fuga beatae recusandae sus</p>
+                    <p>Mobile application development is very similar to Web Development.  </p>
                     <a href="#">Learn More</a>
                 </div>
 
                 <div>
                     <i class="fa-solid fa-laptop-code"></i>
                     <h2>Automation</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla iure repellat totam fuga beatae recusandae sus</p>
+                    <p>Automating Websites or any UI Application has been a part of my job in TCS. I have preety good experience in Automation with Selenium + Java and UFT with VBScript.</p>
                     <a href="#">Learn More</a>
                 </div>
             </div>
@@ -170,9 +173,9 @@
 
                 <div class="contact-right">
                     <form >
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                 </div>
