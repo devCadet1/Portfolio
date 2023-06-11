@@ -276,9 +276,6 @@ nav ul li a:hover::after{
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
-    
-
-
 
 }
 
@@ -300,7 +297,6 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
     
-
 }
 
 
